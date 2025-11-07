@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Doughnuts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #FFB6C1; /* Pastel Pink */
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        .cta-btn {
+            background-color: #FF6347; /* Tomato Red */
+            color: white;
+            padding: 12px 30px;
+            font-size: 1rem;
+            text-decoration: none;
+            border-radius: 30px;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        .cta-btn:hover {
+            background-color: #FF4500; /* Darker Red */
+        }
+        .flavors-section, .reviews-section, .offer-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .flavors-section h2, .reviews-section h2, .offer-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .flavor-cards, .review-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .flavor-card, .review-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+        .flavor-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .flavor-card h3 {
+            font-size: 1.5rem;
+            color: #FF6347;
+        }
+        .review-card p {
+            font-style: italic;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #FFB6C1;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fresh Doughnuts, Baked Daily</h1>
+    <p>Taste the best doughnuts in town, made just for you!</p>
+    <a href="#order" class="cta-btn">Order Now</a>
+</header>
+
+<section class="flavors-section" id="flavors">
+    <h2>Our Delicious Flavors</h2>
+    <div class="flavor-cards">
+        <div class="flavor-card">
+            <img src="https://via.placeholder.com/250" alt="Classic Glazed Doughnut">
+            <h3>Classic Glazed</h3>
+            <p>The perfect balance of sweetness and fluffiness.</p>
+        </div>
+        <div class="flavor-card">
+            <img src="https://via.placeholder.com/250" alt="Chocolate Overload Doughnut">
+            <h3>Chocolate Overload</h3>
+            <p>Rich chocolate glaze with a gooey center.</p>
+        </div>
+        <div class="flavor-card">
+            <img src="https://via.placeholder.com/250" alt="Vegan Vanilla Delight">
+            <h3>Vegan Vanilla Delight</h3>
+            <p>A soft, plant-based doughnut for everyone to enjoy.</p>
+        </div>
+    </div>
+</section>
+
+<section class="reviews-section" id="reviews">
+    <h2>What Our Customers Are Saying</h2>
+    <div class="review-cards">
+        <div class="review-card">
+            <p>"The best doughnuts I've ever had! Fresh, fluffy, and perfectly sweet!"</p>
+            <strong>- Sarah P.</strong>
+        </div>
+        <div class="review-card">
+            <p>"Custom doughnuts for my birthday were a huge hit! So delicious!"</p>
+            <strong>- Mark T.</strong>
+        </div>
+        <div class="review-card">
+            <p>"Vegan doughnuts that actually taste amazing! Can't wait for the next batch."</p>
+            <strong>- Lisa M.</strong>
+        </div>
+    </div>
+</section>
+
+<section class="offer-section" id="offer">
+    <h2>Special Offer</h2>
+    <p>Get 10% off your first order! Sign up for our Doughnut Lovers Club to get exclusive deals.</p>
+    <a href="#subscribe" class="cta-btn">Join Now</a>
+</section>
+
+<footer class="footer">
+    <p>Contact Us: <a href="mailto:info@doughnutstore.com">info@doughnutstore.com</a></p>
+    <p>Follow Us on Social Media: <a href="https://instagram.com">Instagram</a> | <a href="https://facebook.com">Facebook</a></p>
+    <p>&copy; 2025 Delicious Doughnuts</p>
+</footer>
+
+</body>
+</html>
